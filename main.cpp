@@ -52,97 +52,98 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       cat
+//  action 1:   the cat meows
+cat.meow();
+//  action 2:   the cat purrs
+cat.purr();
+//  action 3:   the cat jumps
+cat.jump();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        tree
+//  action 1:    the tree grows
+tree.grow();
+//  action 2:    the tree sheds leaves
+tree.shedLeaves();
+//  action 3:    the tree absorbs CO2
+three.absorbCO2(); // Not sure of the CO2 in capital letters
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        phone
+//  action 1:    the phone rings
+phone.ring();
+//  action 2:    the phone vibrates    
+phone.vibrate();
+//  action 3:    the phone takes photos
+phone.takePhoto();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        airplane
+//  action 1:    the airplane flies
+airplane.fly();
+//  action 2:    the airplane takes off
+airplane.takeOff();
+//  action 3:    the airplane lands
+airplaine.land();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        washing machine
+//  action 1:    the washing machine washs
+washingMachine.wash();
+//  action 2:    the washing machine dries
+washingMachine.dry();
+//  action 3:    the washing machine spins
+washingMachine.spin();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        camera
+//  action 1:    the camera takes pictures
+camera.takePicture();
+//  action 2:    the camera records video
+camera.recordVideo();
+//  action 3:    the camera zooms
+camera.zoom();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        chair
+//  action 1:    the chair tilts back
+chair.tiltBack();
+//  action 2:    the chair rotates
+chair.rotates();
+//  action 3:    the chair adjusts height
+chair.adjusetHeight();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        knife
+//  action 1:    the knife cuts
+knife.cut();
+//  action 2:    the knife  slices
+knife.slice();
+//  action 3:    the knife carves
+knife.carve();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        microwave
+//  action 1:    the microwave heats
+microwave.heat();
+//  action 2:    the microwave defrosts
+microwave.defrost();
+//  action 3:    the microwave beeps
+microwave.beep();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun:        remote control
+//  action 1:    the remote control changes channel
+remoteControl.changeChannel();
+//  action 2:    the remote control adjusts volume
+remoteControl.adjustVolume();
+//  action 3:    the remote control ajusts settings
+remoteControl.adjustSettings();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +151,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
