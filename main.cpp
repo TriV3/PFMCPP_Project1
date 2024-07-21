@@ -108,13 +108,13 @@ chair.rotates();
 //  action 3:    the chair adjusts height
 chair.adjusetHeight();
 //  8)
-//  Noun:        knife
-//  action 1:    the knife cuts
-knife.cut();
-//  action 2:    the knife  slices
-knife.slice();
-//  action 3:    the knife carves
-knife.carve();
+//  Noun:        wireless charger
+//  action 1:    the wireless charger charges devices
+wirelessCharger.chargeDevice();
+//  action 2:    the Wireless charger indicates charging status
+wirelessCharger.indicateChargingStatus();
+//  action 3:    the wireless charger consumes energy
+wirelessCharger.consumeEnergy();
 //  9)
 //  Noun:        microwave
 //  action 1:    the microwave heats
